@@ -1,10 +1,10 @@
 {
-  "name": "react-snakes",
+  "name": "react-snake-ladder",
   "version": "1.0.0",
-  "description": "React snakes is a multiplayer snakes and ladders game written in ReactJs, KonvaJs, Redux etc",
+  "description": "Snake Ladder. Single and Multi Player",
   "scripts": {
     "build": "NODE_ENV=production webpack --config ./webpack.prod.config.js --progress --colors",
-    "start": "node ./app.js"
+    "dev": "node ./app.js"
   },
   "keywords": [
     "react",
@@ -17,8 +17,9 @@
     "type": "git",
     "url": ""
   },
-  "author": "yarsunny",
-  "license": "ISC",
+  "author": "Pushp Singh",
+  "email": "pushp.ranjansingh@gmail.com",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.14.0",
     "konva": "^1.0.2",
